@@ -1,0 +1,17 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "Poshmark Challenge",
+  "author": "Darren Chan",
+  "license": "ISC",
+  "scripts": {
+    "setup": "npm-run-all -s setup:server setup:client",
+    "setup:server": "cd server && npm install",
+    "setup:client": "cd client && npm install",
+    "start:server": "cd server && npm run start",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.2"
+  }
+}

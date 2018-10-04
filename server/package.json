@@ -1,0 +1,15 @@
+{
+  "name": "connect4",
+  "version": "1.0.0",
+  "description": "Poshmark Challenge",
+  "author": "Darren Chan",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "path": "^0.12.7"
+  }
+}
